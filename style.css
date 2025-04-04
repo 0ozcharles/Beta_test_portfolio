@@ -4,26 +4,37 @@ body {
     margin: 0;
     padding: 0;
     color: #333;
-  }
+  }  
   
-  /* 导航栏 */
-  nav {
-    background-color: #1f2937;
-    padding: 1rem;
+ /* 导航栏 */
+nav {
+    background-color: #111827; /* 更深一点，接近黑色 */
+    padding: 1rem 0;
     text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
   }
   
+  /* 导航链接样式 */
   nav a {
-    color: #fff;
+    color: #f9fafb; /* 更亮的白色 */
     text-decoration: none;
-    margin: 0 1rem;
+    margin: 0 1.5rem;
     font-weight: bold;
-    transition: color 0.2s ease;
+    font-size: 1.1rem;
+    position: relative;
+    padding-bottom: 4px;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
   }
   
+  /* hover 效果 */
   nav a:hover {
     color: #60a5fa;
+    border-bottom: 2px solid #60a5fa;
   }
+  
   
   /* 主体居中和样式 */
   .contact-container {
