@@ -8,12 +8,46 @@
 <body>
   <nav>
     <a href="../index.html">Home</a>
-    <a href="../projects/index.html">Projects</a>
+    <a href="index.html">Projects</a>
     <a href="../contact/index.html">Contact</a>
-    <a href="cv/index.html">CV</a>
+    <a href="../cv/index.html">CV</a>
     <a href="https://github.com/0ozcharles" target="_blank">GitHub</a>
   </nav>
 
-  <h1>Projects</h1>
+  <main class="contact-container">
+    <h1>Selected Projects</h1>
+
+    <!-- Lung Nodule Detection Project -->
+    <section>
+      <article>
+        <h2>Lung Nodule Detection using U-Net++ and 3D-CNN</h2>
+        <p><strong>Timeline:</strong> July 2024 – Present</p>
+        <p><strong>Advisor:</strong> Prof. Peng Zhang</p>
+        <p>
+          This project focuses on enhancing the accuracy of lung nodule detection from CT scans using deep learning techniques. Initially, the U-Net architecture was used for segmentation, but it suffered from high false-positive rates. To address this, I incorporated a 3D Convolutional Neural Network (3D-CNN) for post-processing, significantly improving detection precision.
+        </p>
+        <p>
+          Building upon this baseline, I integrated a more advanced U-Net++ structure with 3D-CNN, resulting in superior segmentation and classification performance. The model was trained and evaluated on publicly available lung CT datasets, with performance metrics including Dice coefficient and precision-recall scores.
+        </p>
+        <p><strong>Tools & Technologies:</strong> Python, Linux, PyTorch, NumPy, 3D Slicer</p>
+      </article>
+    </section>
+
+    <!-- Facial Recognition Project -->
+    <section>
+      <article>
+        <h2>Facial Recognition via Template Matching</h2>
+        <p><strong>Timeline:</strong> Oct 2024 – Dec 2024</p>
+        <p><strong>Course Project:</strong> Digital Image Processing</p>
+        <p>
+          This project was aimed at implementing a facial recognition system using classical image processing techniques. I started with preprocessing steps including grayscale conversion, image normalization, and resizing (252×256 pixels).
+        </p>
+        <p>
+          I applied template matching to detect eye regions using predefined left and right eye templates, followed by Hough Transform to accurately locate pupils. Based on the pupil positions, facial alignment and rotation were performed, and the face region was cropped to a standardized format suitable for recognition tasks.
+        </p>
+        <p><strong>Tools & Technologies:</strong> MATLAB</p>
+      </article>
+    </section>
+  </main>
 </body>
 </html>
