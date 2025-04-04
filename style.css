@@ -89,4 +89,18 @@ nav {
   form button:hover {
     background-color: #2563eb;
   }
+  .personal-picture {
+    display: block;
+    margin: 2rem auto;        /* 居中 + 上下留白 */
+    max-width: 300px;         /* 控制最大宽度 */
+    width: 100%;              /* 响应式适配小屏 */
+    border-radius: 12px;      /* 圆角（可选） */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* 投影效果 */
+  }
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  }
   
