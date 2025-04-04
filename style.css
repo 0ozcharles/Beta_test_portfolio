@@ -1,10 +1,81 @@
 body {
-    /* Set line height to 1.5 times the font size
-         and use the OS’s UI font as the website font
-       */
-    font: 100%/1.5 system-ui;
+    font: 100%/1.6 system-ui, sans-serif;
+    background-color: #f3f4f6;
+    margin: 0;
+    padding: 0;
+    color: #333;
   }
-  img{
-    width: 500px ;
-    height:700px;
+  
+  /* 导航栏 */
+  nav {
+    background-color: #1f2937;
+    padding: 1rem;
+    text-align: center;
   }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-weight: bold;
+    transition: color 0.2s ease;
+  }
+  
+  nav a:hover {
+    color: #60a5fa;
+  }
+  
+  /* 主体居中和样式 */
+  .contact-container {
+    max-width: 600px;
+    margin: 3rem auto;
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-container h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #111827;
+  }
+  
+  /* 表单字段样式 */
+  form label {
+    display: block;
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    box-sizing: border-box;
+  }
+  
+  form textarea {
+    resize: vertical;
+  }
+  
+  /* 提交按钮样式 */
+  form button {
+    background-color: #3b82f6;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  form button:hover {
+    background-color: #2563eb;
+  }
+  
